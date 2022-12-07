@@ -23,4 +23,25 @@ const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lap
 
 1.1;
 const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
-console.log(avengers, 1);
+let avenger = "Hulk";
+console.log(`${avenger}`);
+
+
+1.2;
+const avengers2 = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+let avengerscopy = ["IRONMAN", "SPIDERMAN", "BLACK PHANTER"];
+console.log(avengerscopy);
+
+1.3;
+const avengers3 = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+const counterAvengers3 = 3;
+console.log(counterAvengers3);
+
+
+1.4;
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry","Morty", "Summer"];
+let rickAndMortyCharacter = "Summer";
+console.log(rickAndMortyCharacter);
+
+
+
