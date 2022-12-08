@@ -32,16 +32,13 @@ console.log("Hola, mi marido se llama " + nameBoyfriend);
 
 let nameOfSon = "Asier " + "15 años";
 console.log(nameOfSon); 
+let age = 40
 
 
-console.log(typeof nameBoyfriend);
+console.log(typeof age);
+if (typeof age  === "number" ) console.log("Hola Saray")
 
-function suma (a, b) {
-    return a + b;
- };
 
- suma(5 + 10);
- console.log(suma)
 
 
 
