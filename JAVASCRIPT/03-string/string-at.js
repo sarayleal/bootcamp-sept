@@ -18,3 +18,6 @@ console.log(`Voy a usar el index ${index1} para que me devuelva el elemento que 
  
 //Cuando a at, no le pasamos valor, por defecto es 0. si le pasamos -1, por ejemplo, será el ultimo elemento y así sucesivamente.
 console.log(`Voy a no usar el index para que me devuelva la posicion por defecto  ${sentence1.at()}`);
+
+
+
