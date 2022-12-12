@@ -19,6 +19,10 @@ let y = 10;
 let z = 5 + 10;
 console.log(z);
 
-
+1.4/2;
+function sum(h,y) {
+    let sum = (h, y)
+};
+console.log(5 + 10);
 
 
