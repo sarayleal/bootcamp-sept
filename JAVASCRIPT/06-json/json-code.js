@@ -12,3 +12,9 @@ console.log(myHome);
 console.log(JSON.stringify(myHome));
 
 
+
+const json = '{"name":"saray", "age": 40}';
+const obj = JSON.parse(json);
+console.log(obj);
+
+
