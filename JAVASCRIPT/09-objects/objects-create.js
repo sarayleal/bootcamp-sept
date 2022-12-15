@@ -23,7 +23,7 @@ const person2 = {
 console.log(person2.isStudent)
 
 const David = Object.create(person2)
-David.isStudent = false;DAVID 
+David.isStudent = false;
 David.name = 'David';
 David.age = 36;
 David.printIntroduction2();
