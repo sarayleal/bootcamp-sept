@@ -29,3 +29,13 @@ David.age = 36;
 David.printIntroduction2();
 
 
+const María = Object.create(person2)
+María.istudent = true;
+María.name = 'María';
+María.age = 32;
+María.printIntroduction2();
+
+
+
+
+
