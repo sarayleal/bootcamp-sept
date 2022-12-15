@@ -8,6 +8,7 @@ console.log('soource', source);
 
 
 
+
 const person = {name:'Saray', age:40};
 const person2 = {name:'David', age:36};
 
@@ -17,3 +18,9 @@ console.log('person', person);
 console.log('person2', person2);
 
 
+
+
+const places = {place: 'Suances', number: 60};
+const places2 = { place:'Cortiguera', number: 60};
+Object.assign(places, places2);
+console.log('places', places);
