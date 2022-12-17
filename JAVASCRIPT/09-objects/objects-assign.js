@@ -24,3 +24,5 @@ const places = {place: 'Suances', number: 60};
 const places2 = { place:'Cortiguera', number: 60};
 Object.assign(places, places2);
 console.log('places', places);
+
+
