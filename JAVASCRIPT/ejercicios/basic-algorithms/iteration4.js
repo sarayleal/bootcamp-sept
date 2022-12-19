@@ -23,11 +23,11 @@ const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lap
 
 1.1;
 const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
-let avenger = "Hulk";
-console.log(`${avenger}`);
+const  avenger = [0];
+console.log(avengers.at(avenger));
 
 
-1.2;
+/*1.2;
 const avengers2 = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 let avengerscopy = ["IRONMAN", "SPIDERMAN", "BLACK PHANTER"];
 console.log(avengerscopy);
@@ -35,13 +35,15 @@ console.log(avengerscopy);
 1.3;
 const avengers3 = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 const counterAvengers3 = 3;
-console.log(counterAvengers3);
+console.log(counterAvengers3);*/
 
 
 1.4;
-const rickAndMortyCharacters = ["Rick", "Beth", "Jerry","Morty", "Summer"];
-let rickAndMortyCharacter = "Summer";
-console.log(rickAndMortyCharacter);
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+const rickAndMortyCharacter2 = ["Morty", "Summer"];
+console.log(rickAndMortyCharacters.concat(rickAndMortyCharacter2));
+console.log(rickAndMortyCharacter2.at(1));
+
 
 
 
