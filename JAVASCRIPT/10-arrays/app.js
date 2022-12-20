@@ -5,7 +5,7 @@ console.log(array1.at(index1));
 
 
 const arrayexample = ["saray", "asier", "india", "david"];
-const index2 = 5;
+const index2 = 2;
 console.log(arrayexample.at(index2));
 
 
@@ -18,6 +18,20 @@ const arrayConcat4 = [{a:'Tyson', b: 'Michi'}];
 const arrayConcatSpread = [...arrayConcat1, ...arrayConcat2, ...arrayConcat4];
 console.log(arrayConcat3);
 console.log(arrayConcatSpread);
+
+//! .entries
+const arrayEntries =[]
+
+
+const arrayConcatOther1 = ['a', 'b','c'];
+const arrayConcatOther2 = ['d', 'e', 'f'];
+const arrayConcatOther3 =[...arrayConcatOther1, ...arrayConcatOther2];
+console.log(arrayConcatOther3);
+
+
+
+
+
 
 
 
