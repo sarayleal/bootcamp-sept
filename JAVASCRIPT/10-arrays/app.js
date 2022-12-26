@@ -28,7 +28,26 @@ console.log(arrayConcatOther3);
 
 
 //! .entries
-const arrayEntries =[]
+const arrayEntries =[1, 2, 3, 'saray', 'hola mundo'];
+const iteratorEntries = arrayEntries.entries()
+console.log(iteratorEntries.next().value);
+console.log(iteratorEntries.next().value);
+console.log(iteratorEntries.next().value);
+console.log(iteratorEntries.next().value);
+console.log(iteratorEntries.next().value);
+console.log(iteratorEntries.next().value);
+
+
+
+//! .fill || primer param (valor a añadir) || segundo param (posicion donde empieza) || tercer paarm ( posicion donde termina);
+
+const arrayFill  = ['saray', 'asier', 'david', ''];
+console.log(arrayFill.fill('india',3,4));
+
+const family = ['pili', 'cecilia'];
+console.log(family.fill('david',0,1));
+
+
 
 
 
