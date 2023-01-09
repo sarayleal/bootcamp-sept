@@ -4,9 +4,9 @@ const index1 = 4;
 console.log(array1.at(index1));
 
 
-const arrayexample = ["saray", "asier", "india", "david"];
+const arrayAt = ["saray", "asier", "india", "david"];
 const index2 = 2;
-console.log(arrayexample.at(index2));
+console.log(arrayAt.at(index2));
 
 
 
@@ -52,6 +52,11 @@ console.log(family.fill('david',0,1));
 const arrayFlat = [0,1,[2,3],[4,5]];
 console.log(arrayFlat.flat());
 
+
+//! .includes, te busca un valor, dentro de un array y te devuelve, true or false.
+ const arrayIncludes = [1, 2, 3, 'Saray', 'David'];
+ console.log(arrayIncludes.includes('Saray'))
+ console.log(arrayIncludes.includes('David'))
 
 
 
